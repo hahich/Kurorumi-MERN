@@ -1,5 +1,4 @@
-import stripe from 'stripe'
+import Stripe from 'stripe'
 
-const Stripe = new stripe(process.env.STRIPE_SECRET_KEY)
+export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
-export default Stripe
