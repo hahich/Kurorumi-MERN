@@ -1,4 +1,3 @@
-import AxiosToastError from "../../fe/src/utils/AxiosToastError.js";
 import cartProductModel from "../model/cartProduct.model.js";
 import UserModel from "../model/user.model.js";
 
