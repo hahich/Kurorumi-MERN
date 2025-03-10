@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 import orderModel from "../model/order.model.js"
 import UserModel from "../model/user.model.js"
 import cartProductModel from "../model/cartProduct.model.js"
-import Stripe from "../config/stripe.js"
+import stripe from "../config/stripe.js"
 
 export const CashOnDeliveryController = async (req, res) => {
     try {
