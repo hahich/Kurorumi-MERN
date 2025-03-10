@@ -51,9 +51,9 @@ app.use("/api/address", addressRouter)
 app.use("/api/order", orderRouter)
 
 connectDB().then(() => {
-  app.listen(port, () => {
+  const server = app.listen(port, () => {
     console.log("Server is running on port", port);
   });
 });
 
-export default { app }
+export default server
