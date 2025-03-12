@@ -1,7 +1,7 @@
 import React from 'react'
 import { useGlobalContext } from '../provider/GlobalProvider'
 import { FaShoppingCart } from "react-icons/fa";
-import { displayPriceInVND } from '../utils/DisplayPriceInVNd';
+import { displayPriceInVND } from '../utils/DisplayPriceInVND';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 

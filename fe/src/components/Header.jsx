@@ -9,7 +9,7 @@ import { GoTriangleUp } from "react-icons/go";
 import { GoTriangleDown } from "react-icons/go";
 import { useEffect, useReducer, useState } from 'react';
 import UserMenu from './UserMenu';
-import { displayPriceInVND } from '../utils/DisplayPriceInVNd';
+import { displayPriceInVND } from '../utils/DisplayPriceInVND';
 import { current } from '@reduxjs/toolkit';
 import { useGlobalContext } from '../provider/GlobalProvider';
 import DisplayCartItems from '../components/DisplayCartItems.jsx';

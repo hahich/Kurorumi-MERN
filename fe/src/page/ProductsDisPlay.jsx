@@ -4,7 +4,7 @@ import SummarryApi from '../common/SummaryApi';
 import Axios from "../utils/Axios";
 import AxiosToastError from "../utils/AxiosToastError";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import { displayPriceInVND } from '../utils/DisplayPriceInVNd';
+import { displayPriceInVND } from '../utils/DisplayPriceInVND';
 import Divider from '../components/Divider';
 import shipped from '../assets/icon/411763.png';
 import moneyback from '../assets/icon/moneyback.png';

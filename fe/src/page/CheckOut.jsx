@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { displayPriceInVND } from '../utils/DisplayPriceInVNd'
+import { displayPriceInVND } from '../utils/DisplayPriceInVND'
 import { useGlobalContext } from '../provider/GlobalProvider'
 import Divider from '../components/Divider'
 import AddAddress from '../components/AddAddress'
