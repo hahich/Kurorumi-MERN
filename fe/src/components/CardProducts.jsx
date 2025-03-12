@@ -1,14 +1,9 @@
 import { Link } from "react-router-dom"
-import { displayPriceInVND } from "../utils/DisplayPriceInVNd"
+import { displayPriceInVND } from "../utils/DisplayPriceInVND"
 import { validURLConvert } from "../utils/validURL.Convert"
 import propTypes from "prop-types"
 import { priceWithDiscount } from "../utils/PriceWithDiscount"
-import SummarryApi from "../common/SummaryApi"
-import AxiosToastError from "../utils/AxiosToastError"
-import Axios from "../utils/Axios"
 import { useState } from "react"
-import toast from "react-hot-toast"
-import { useGlobalContext } from "../provider/GlobalProvider"
 import AddToCartBtn from "./AddToCartBtn"
 
 const CardProducts = ({ data }) => {
