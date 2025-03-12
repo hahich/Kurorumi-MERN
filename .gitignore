@@ -26,6 +26,3 @@ dist-ssr
 # manual changes
 fe/node_modules
 be/node_modules
-.env
-.fe/.env
-.be/.env
